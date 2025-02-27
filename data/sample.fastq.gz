@@ -1,0 +1,4 @@
+
+3️⃣ **Test the script** by running:  
+```bash
+bash scripts/download_test_data.sh
