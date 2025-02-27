@@ -108,7 +108,11 @@ trimmomatic PE input_R1.fastq input_R2.fastq \
     output_R2_paired.fq output_R2_unpaired.fq \
     TRAILING:20 MINLEN:50
 ```
-
+## 📥 Download Public FASTQ Data
+If you don't have sample data, run:
+```bash
+bash scripts/download_test_data.sh
+```
 ## 🔍 Potential Extensions  
 If expanded, this project could integrate:  
 - **Automated QC summary reporting** (Markdown/PDF output).  
